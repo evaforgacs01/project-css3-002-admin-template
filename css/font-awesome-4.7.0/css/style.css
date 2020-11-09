@@ -222,10 +222,12 @@ body{
 }
 
 .fa-user {
+    color:  rgb(134, 143, 153) ;
     position: relative;
     left: 85%;   
 }
 .fa-bars {
+    color:  rgb(134, 143, 153) ;
     position: relative;
     left: 10%;   
 

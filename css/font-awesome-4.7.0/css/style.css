@@ -34,8 +34,7 @@ body{
         position: relative;
         left: 60%;
     display: inline;
-    right: 100%;
-    border: 2px solid rgb(180, 185, 192);
+    border: 1px solid rgb(180, 185, 192);
     border-radius: 4px 0 4px 0;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -82,7 +81,7 @@ body{
     
     }
     .main__aside {
-        display: flex;
+       
         
     }
     .main__nav {
@@ -96,8 +95,8 @@ body{
     }
     .nav__ul li {
         
-        margin: 7px;
-        padding: 7px;
+        margin: 3px;
+        padding: 3px;
         font-size: 1em;
         color: rgb(141, 148, 155) ;
         margin-right: 100px;
@@ -163,7 +162,7 @@ body{
     border-radius: .25rem .25rem 0 0;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-flow: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -171,38 +170,37 @@ body{
     padding-bottom: 1px;
     position: relative;
     transition: all .3s ease-out;
-         
+    
 }
 
 .card__bottom {
     border-radius: 0 0 .25rem .25rem;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-flow: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    padding-top: 1px;
+    font-size: .8rem;
+    padding-top: 20px;
     padding-bottom: 1px;
     position: relative;
     transition: all .3s ease-out;
     
     
+    
 }
 
 .top__card{
+    
     border-left: 2px;
     border-right: 2px;
-    position: relative;
+    
 }
 .bottom__card{
+    
     border-left: 2px;
     border-right: 2px;
-    position: relative;
-}
-
-.label__bottom {
-
+    
 }
 
 .main__card--blue {

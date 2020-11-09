@@ -227,5 +227,11 @@ body{
 }
 
 .fa-user {
-    
+    position: relative;
+    left: 85%;   
+}
+.fa-bars {
+    position: relative;
+    left: 10%;   
+
 }
